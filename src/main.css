@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+canvas {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+}
