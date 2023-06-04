@@ -5,9 +5,10 @@
 </script>
 
 <main class="mx-6 text-left">
+    <h2 class="my-12 block lg:hidden text-lightest-slate text-xs font-bold uppercase">About</h2>
     <div id={id} class="my-4 mx-auto max-w-3xl text-light-slate">
         {#each description as paragraph, i (i)}
-            <p class="mb-4">
+            <p class="my-8 mb-4">
                 {paragraph.text}
                 {#if paragraph.link}
                     <a class="highlight text-white hover:text-blue" href={paragraph.link} target="_blank">{paragraph.linkText}</a>

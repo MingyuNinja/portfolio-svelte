@@ -15,9 +15,10 @@
 </script>
 
 <main class="mx-6 text-left">
-    <div id={id} class="my-4 mx-auto max-w-3xl text-light-slate">
+    <h2 class="my-12 block lg:hidden text-lightest-slate text-xs font-bold uppercase">Projects</h2>
+    <div id={id} class="my-4 max-w-3xl text-light-slate">
         {#each projects as project (project.id)}
-        <article class="my-4 p-4 flex items-start gap-4 {hoveredProjects !== null && project !== hoveredProjects ? 'fade' : ''}"
+        <article class="my-8 flex flex-col sm:flex-row items-start gap-4 {hoveredProjects !== null && project !== hoveredProjects ? 'fade' : ''}"
                 on:mouseenter={() => hoveredProjects = project}
                 on:mouseleave={() => hoveredProjects = null}
                 on:click={() => window.open(project.url, '_blank')}
@@ -41,8 +42,6 @@
         {/each}
     </div>
 </main>
-
-
 
 <style>
     main {

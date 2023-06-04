@@ -6,8 +6,6 @@ This personal portfolio project is built using Svelte and Tailwind CSS. It showc
 
 This page's design is a linear interpolation of [Brittany Chiang's](https://brittanychiang.com/) and [qewer33's page](https://qewer.dev/). Much of the inspiration for the layout, styles, and functionality were drawn from these excellent portfolios.
 
-This would create hyperlinks to Brittany Chiang's and qewer33's pages respectively, and provides a simple way of acknowledging your sources of inspiration. Be sure to modify the text to best fit your own voice and style!
-
 ## Project Structure
 
 The project consists of several components including:
@@ -32,7 +30,7 @@ The application can be built using the following command:
 npm run build
 ```
 
-This command will create a `public` or `dist` directory (based on the project configuration) which contains the files ready to be served.
+This command will create a `public` directory which contains the files ready to be served.
 
 ## License
 
