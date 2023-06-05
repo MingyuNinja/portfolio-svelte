@@ -15,7 +15,7 @@
 					activeSection.set(entry.target.id);
 				}
 			});
-		}, { threshold: [ 0.6 ] });
+		}, { threshold: [ 0.4 ] });
 
 		sections.forEach(section => {
 			const element = document.getElementById(section);
