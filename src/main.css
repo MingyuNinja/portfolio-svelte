@@ -19,6 +19,7 @@ html, body {
 }
 
 body {
+    background-color: black;
     padding-top: env(safe-area-inset-top);
     padding-right: env(safe-area-inset-right);
     padding-bottom: env(safe-area-inset-bottom);
